@@ -1,0 +1,11 @@
+# Azure Developer CLI (azd) — deploys the service to Azure Container Apps.
+# Usage: azd up   (provisions infra/main.bicep and deploys the Dockerfile)
+name: agentic-web-search-service
+services:
+  api:
+    project: .
+    language: python
+    host: containerapp
+infra:
+  provider: bicep
+  path: infra

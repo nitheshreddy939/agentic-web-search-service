@@ -1,0 +1,174 @@
+{
+  "scenarios": 15,
+  "passed": 15,
+  "all_actions_under_3s": true,
+  "max_action_ms_overall": 142.2,
+  "avg_token_saving_pct": 72.8,
+  "rows": [
+    {
+      "id": "contact",
+      "success": true,
+      "error": "",
+      "steps": 4,
+      "wall_s": 3.15,
+      "max_action_ms": 100.7,
+      "avg_action_ms": 45.0,
+      "over_budget_actions": 0,
+      "token_saving_pct": 73.7
+    },
+    {
+      "id": "job-application",
+      "success": true,
+      "error": "",
+      "steps": 5,
+      "wall_s": 1.22,
+      "max_action_ms": 142.2,
+      "avg_action_ms": 44.3,
+      "over_budget_actions": 0,
+      "token_saving_pct": 69.2
+    },
+    {
+      "id": "newsletter",
+      "success": true,
+      "error": "",
+      "steps": 2,
+      "wall_s": 1.23,
+      "max_action_ms": 110.2,
+      "avg_action_ms": 71.9,
+      "over_budget_actions": 0,
+      "token_saving_pct": 69.2
+    },
+    {
+      "id": "login",
+      "success": true,
+      "error": "",
+      "steps": 3,
+      "wall_s": 1.13,
+      "max_action_ms": 119.7,
+      "avg_action_ms": 56.2,
+      "over_budget_actions": 0,
+      "token_saving_pct": 75.0
+    },
+    {
+      "id": "registration",
+      "success": true,
+      "error": "",
+      "steps": 5,
+      "wall_s": 0.98,
+      "max_action_ms": 62.9,
+      "avg_action_ms": 22.3,
+      "over_budget_actions": 0,
+      "token_saving_pct": 73.0
+    },
+    {
+      "id": "checkout",
+      "success": true,
+      "error": "",
+      "steps": 5,
+      "wall_s": 1.07,
+      "max_action_ms": 92.0,
+      "avg_action_ms": 31.6,
+      "over_budget_actions": 0,
+      "token_saving_pct": 75.0
+    },
+    {
+      "id": "appointment",
+      "success": true,
+      "error": "",
+      "steps": 5,
+      "wall_s": 1.07,
+      "max_action_ms": 71.1,
+      "avg_action_ms": 26.9,
+      "over_budget_actions": 0,
+      "token_saving_pct": 71.1
+    },
+    {
+      "id": "survey",
+      "success": true,
+      "error": "",
+      "steps": 3,
+      "wall_s": 1.05,
+      "max_action_ms": 70.1,
+      "avg_action_ms": 33.3,
+      "over_budget_actions": 0,
+      "token_saving_pct": 73.7
+    },
+    {
+      "id": "search",
+      "success": true,
+      "error": "",
+      "steps": 2,
+      "wall_s": 0.96,
+      "max_action_ms": 84.6,
+      "avg_action_ms": 55.6,
+      "over_budget_actions": 0,
+      "token_saving_pct": 73.0
+    },
+    {
+      "id": "rsvp",
+      "success": true,
+      "error": "",
+      "steps": 4,
+      "wall_s": 1.16,
+      "max_action_ms": 66.2,
+      "avg_action_ms": 28.1,
+      "over_budget_actions": 0,
+      "token_saving_pct": 73.0
+    },
+    {
+      "id": "feedback",
+      "success": true,
+      "error": "",
+      "steps": 4,
+      "wall_s": 1.19,
+      "max_action_ms": 88.5,
+      "avg_action_ms": 37.1,
+      "over_budget_actions": 0,
+      "token_saving_pct": 73.7
+    },
+    {
+      "id": "address-update",
+      "success": true,
+      "error": "",
+      "steps": 5,
+      "wall_s": 1.09,
+      "max_action_ms": 69.2,
+      "avg_action_ms": 27.8,
+      "over_budget_actions": 0,
+      "token_saving_pct": 73.0
+    },
+    {
+      "id": "password-reset",
+      "success": true,
+      "error": "",
+      "steps": 2,
+      "wall_s": 1.09,
+      "max_action_ms": 80.7,
+      "avg_action_ms": 50.4,
+      "over_budget_actions": 0,
+      "token_saving_pct": 73.0
+    },
+    {
+      "id": "travel-search",
+      "success": true,
+      "error": "",
+      "steps": 4,
+      "wall_s": 0.96,
+      "max_action_ms": 52.2,
+      "avg_action_ms": 23.9,
+      "over_budget_actions": 0,
+      "token_saving_pct": 73.0
+    },
+    {
+      "id": "support-ticket",
+      "success": true,
+      "error": "",
+      "steps": 5,
+      "wall_s": 1.02,
+      "max_action_ms": 74.0,
+      "avg_action_ms": 27.6,
+      "over_budget_actions": 0,
+      "token_saving_pct": 73.0
+    }
+  ]
+}

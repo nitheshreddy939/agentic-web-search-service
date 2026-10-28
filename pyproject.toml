@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentic-web-search-service"
+version = "1.0.0"
+description = "Browser agent service: LangGraph ReAct loop + Playwright, driven by the page accessibility tree instead of the raw DOM."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Nithesh Reddy Kothapally" }]
+dependencies = [
+  "fastapi>=0.115",
+  "uvicorn[standard]>=0.30",
+  "pydantic>=2.7",
+  "pydantic-settings>=2.3",
+  "playwright>=1.44",
+  "langgraph>=0.2",
+  "langchain-core>=0.3",
+  "httpx>=0.27",
+  "beautifulsoup4>=4.12",
+]
+
+[project.optional-dependencies]
+llm = ["langchain-openai>=0.2"]
+dev = ["pytest>=8.2", "pytest-asyncio>=0.23", "ruff>=0.5"]
+
+[project.scripts]
+agentic-web-search = "agentic_web_search.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
