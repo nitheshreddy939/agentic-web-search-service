@@ -110,4 +110,4 @@ Dockerfile, azure.yaml
 
 ## License
 
-MIT
+© 2026 Nithesh Reddy Kothapally. All rights reserved.

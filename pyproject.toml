@@ -8,7 +8,6 @@ version = "1.0.0"
 description = "Browser agent service: LangGraph ReAct loop + Playwright, driven by the page accessibility tree instead of the raw DOM."
 readme = "README.md"
 requires-python = ">=3.11"
-license = { text = "MIT" }
 authors = [{ name = "Nithesh Reddy Kothapally" }]
 dependencies = [
   "fastapi>=0.115",
